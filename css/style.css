@@ -87,6 +87,11 @@ nav #left-nav-links a, nav #right-nav-links a{
     font-size: .8em;
 }
 
+nav #left-nav-links a:hover, nav #right-nav-links a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
 
 /* header */
 
@@ -528,6 +533,15 @@ footer #footer-inner li{
     list-style-type: none;
     padding-top: 5px;
     font-size: .8em;
+}
+
+footer #footer-inner a{
+    text-decoration: none;
+    color: white;
+}
+
+footer #footer-inner a:hover{
+    text-decoration: underline;
 }
 
 footer #footer-inner-bottom hr{
