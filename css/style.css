@@ -25,12 +25,22 @@ body{
     padding: 8px 15px
 }
 
+.blue-button:hover{
+    background-color: #00aeff;
+}
+
 .white-button{
     background-color: white;
     border: 1px solid black;
     padding: 10px;
 
 }
+
+.white-button:hover{
+    background-color: #b8b6b6;
+}
+
+
 
 
 /* nav */
