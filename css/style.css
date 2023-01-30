@@ -66,7 +66,6 @@ nav #left-nav{
     align-items: center;
     gap: 30px;
 
-    padding: 15px;
 }
 
 nav #left-nav-links{
@@ -80,13 +79,13 @@ nav #right-nav{
     align-items: center;
     gap: 15px;
 
-    padding: 15px;
-
 }
 
 nav #right-nav-links{
     display: flex;
     gap: 30px;
+
+    box-sizing: content-box;
 }
 
 /* nav links  */
@@ -95,11 +94,16 @@ nav #left-nav-links a, nav #right-nav-links a{
     color: black;
 
     font-size: .8em;
+
+    padding: 15px;
+
+    
 }
 
 nav #left-nav-links a:hover, nav #right-nav-links a:hover {
     color: blue;
-    text-decoration: underline;
+
+    border-bottom: 2px solid blue;
 }
 
 
@@ -506,9 +510,6 @@ main #seventh-section{
 main #seventh-section h2{
     padding-bottom: 20px;
 }
-/* main #seventh-section hr{
-    margin: 30px 0;
-} */
 
 main #seventh-section .question{
     display: flex;
