@@ -473,3 +473,26 @@ main #sixth-section h2{
 main #sixth-section .white-button.button2{
     border: none;
 }
+
+/* seventh section */
+
+main #seventh-section{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+main #seventh-section h2{
+    padding-bottom: 20px;
+}
+main #seventh-section hr{
+    margin: 30px 0;
+}
+
+main #seventh-section .question{
+    display: flex;
+    justify-content: space-between;
+}
+
+main #seventh-section i{
+    padding: 0 20px;
+}
