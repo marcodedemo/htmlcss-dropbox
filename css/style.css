@@ -129,6 +129,9 @@ header #header-bottom-right img{
 
 /* main */
 
+
+/* first section */
+
 main #first-section{
     padding-top: 100px;
 }
@@ -286,6 +289,41 @@ main #first-section #tab-row #row-bottom-right{
     padding: 20px;
     
 }
+
+
+/* second section */
+
+main #second-section{
+    padding-top: 100px;
+
+    display: flex;
+    gap: 30px;
+
+}
+/* second section image */
+main #second-section #section2-pic img{
+    width: 100%;
+}
+
+/* second section text and button  */
+main #second-section #section2-text{
+    max-width: 250px;
+
+    padding-top: 50px;
+
+}
+
+main #second-section #section2-text p{
+    padding:10px 0;
+}
+
+main #second-section #section2-text button{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
 
 
 
