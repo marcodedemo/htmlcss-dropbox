@@ -10,11 +10,12 @@ body{
 }
 
 /* assets */
+
 .blue-button{
     border: none;
     background-color: #0061ff;
     color: white;
-    padding: 5px 10px
+    padding: 8px 15px
 }
 
 
@@ -61,4 +62,61 @@ nav #right-nav-links{
 nav #left-nav-links a, nav #right-nav-links a{
     text-decoration: none;
     color: black;
+
+    font-size: .8em;
 }
+
+
+/* header */
+
+header{
+    background-color: #b4d0e7;
+}
+
+header #header-centered-container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header top side */
+header #header-top{
+    padding-top: 30px;
+}
+header #header-top h1{
+    font-size: 4em;
+}
+
+/* header bottom side */
+header #header-bottom{
+    display: flex;
+    align-items: flex-start;
+
+    padding-top: 30px;
+    
+}
+
+header #header-bottom-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    max-width: 300px;
+}
+
+/* down arrow color */
+header #header-bottom-left a{
+    padding-top: 50px;
+    font-size: 3em;
+    color: black;
+}
+
+/* header image  */
+header #header-bottom-right img{
+    width: 100%;
+
+    margin-bottom: -50px;
+}
+
+
