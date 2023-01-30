@@ -324,6 +324,32 @@ main #second-section #section2-text button{
 
 }
 
+/* third section */
 
+main #third-section{
+    padding-top: 100px;
+}
+
+/* card container */
+main #third-section #card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    padding-top: 20px;
+}
+/* card and image */
+main #third-section .card{
+    width: calc(100% / 3 - 30px);
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} 
+
+main #third-section .card img{
+    width: 80%;
+
+}
 
 
