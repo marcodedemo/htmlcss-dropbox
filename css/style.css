@@ -41,6 +41,13 @@ nav{
     align-items: center;
 
     z-index: 2;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background-color: white;
 }
 
 /* nav left side */
@@ -95,7 +102,7 @@ header #header-centered-container{
 
 /* header top side */
 header #header-top{
-    padding-top: 30px;
+    padding-top: 100px;
 }
 header #header-top h1{
     font-size: 4em;
