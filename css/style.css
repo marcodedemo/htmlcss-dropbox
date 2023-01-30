@@ -496,3 +496,44 @@ main #seventh-section .question{
 main #seventh-section i{
     padding: 0 20px;
 }
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+/* footer inner top  */
+footer #footer-inner-top{
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 100px;
+}
+
+/* footer lists title */
+footer #footer-inner h4{
+    padding-bottom: 10px;
+}
+
+/* footer list */
+footer #footer-inner li{
+    list-style-type: none;
+    padding-top: 5px;
+    font-size: .8em;
+}
+
+footer #footer-inner-bottom hr{
+    width: 100px;
+    margin: 50px 0 20px;
+}
+
+footer #footer-inner-bottom #lenguage{
+    display: flex;
+    align-items:center;
+    gap: 5px;
+
+    font-size: .8em;
+
+    padding-bottom: 50px;
+}
