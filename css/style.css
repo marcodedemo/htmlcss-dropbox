@@ -11,6 +11,13 @@ body{
 
 /* assets */
 
+.centered-container{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .blue-button{
     border: none;
     background-color: #0061ff;
@@ -118,5 +125,167 @@ header #header-bottom-right img{
 
     margin-bottom: -50px;
 }
+
+
+/* main */
+
+main #first-section{
+    padding-top: 100px;
+}
+
+/* checkboxes */
+main #first-section #checkbox{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    padding: 30px 0;
+}
+
+/* first section tab */
+main #first-section #tab-columns{
+    display: flex;
+    gap: 30px;
+}
+
+
+main #first-section #tab-container .column{
+    border: 1px solid lightgray;
+    width: calc(100% / 3);
+}
+
+main #first-section .plan-members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 0;
+
+    border-bottom: 1px solid lightgray;
+}
+
+/* column sect1 */
+
+main #first-section .column .column-sect1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding:20px;
+
+}
+
+main #first-section .column .column-sect1 .price{
+    font-weight: bold;
+}
+
+main #first-section .column .column-sect1 .rate{
+    color: gray;
+}
+
+/* column sect2 */
+
+main #first-section .column .column-sect2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding:20px
+}
+
+main #first-section .column .column-sect2 .user{
+    display: flex;
+    gap: 5px;
+}
+
+main #first-section .column .column-sect2 .storage{
+    display: flex;
+    gap: 5px;
+}
+main #first-section .column .column-sect2 .functions{
+    display: flex;
+    gap: 5px;
+}
+
+/* column sect3 */
+main #first-section .column .column-sect3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 20px;
+}
+
+main #first-section .column .column-sect3 hr{
+    width: 50px;
+    margin-top: 20px;
+}
+
+/* column sect4 */
+
+main #first-section .column .column-sect4{
+    display: flex;
+    flex-direction: column ;
+    gap: 10px;
+    
+    padding: 20px;
+}
+
+main #first-section .column .column-sect4 .higlight{
+    display: flex;
+    gap: 5px;
+}
+
+main #first-section .column .column-sect4 i{
+    color: #0061ff;
+}
+
+/* tab row */
+main #first-section #tab-row{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 30px;
+
+    border: 1px solid lightgray;
+
+}
+
+/* tab row top */
+main #first-section #tab-row #row-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    border-bottom: 1px solid lightgray;
+
+    padding: 10px 0;
+}
+
+ /* tab row bottom */
+main #first-section #tab-row #row-bottom{
+    display: flex;
+    gap: 10px;
+}
+
+ /* tab row bottom left */
+main #first-section #tab-row #row-bottom-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 20px;
+
+    max-width: 650px;
+
+}
+
+ /* tab row bottom right */
+main #first-section #tab-row #row-bottom-right{
+    padding: 20px;
+    
+}
+
 
 
