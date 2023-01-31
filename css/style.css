@@ -362,10 +362,11 @@ main #third-section{
 /* card container */
 main #third-section #card-container{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
 
-    padding-top: 20px;
+    padding-top: 30px;
 }
 /* card and image */
 main #third-section .card{
