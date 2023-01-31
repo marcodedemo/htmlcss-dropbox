@@ -9,7 +9,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* assets */
+/* common */
 
 .centered-container{
     max-width: 900px;
@@ -66,6 +66,8 @@ nav #left-nav{
     align-items: center;
     gap: 30px;
 
+    padding-left: 15px;
+
 }
 
 nav #left-nav-links{
@@ -79,6 +81,7 @@ nav #right-nav{
     align-items: center;
     gap: 15px;
 
+    padding-right: 15px;
 }
 
 nav #right-nav-links{
@@ -394,35 +397,39 @@ main #fifth-section{
     display: flex;
 }
 
- main #fifth-section > div{
-    width: calc(100% / 3);
- }
-
  /* fifth section left side */
  main #fifth-section-left{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
+    min-width: calc(100vw / 3);
+    height: calc(100vw / 3);
  }
 
- main #fifth-section-left img{
+ main #fifth-section-left .square{
     width: 50%;
-    min-width:200px ;
+    height: 50%;
 
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ main #fifth-section-left img{
+    width: 100%;
+    padding: 20%;
  }
 
 /* logos backgrounds */
-main #fifth-section-left #logo1{
+main #fifth-section-left .square1{
     background-color: #a2d39b;
 }
-main #fifth-section-left #logo2{
+main #fifth-section-left .square2{
     background-color: #61082a;
 }
-main #fifth-section-left #logo3{
+main #fifth-section-left .square3{
     background-color: #0193ce;
 }
-main #fifth-section-left #logo4{
+main #fifth-section-left .square4{
     background-color: #ff1d1b;
 }
 
@@ -431,18 +438,20 @@ main #fifth-section-left #logo4{
 main #fifth-section-middle{
     background-color: #f5f5f5;
 
+    max-height: calc(100vw / 3);
+    flex-grow: 1;
+
     display:flex ;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 
-    padding: 40px;
+    padding: 30px;
 
 }
 
 /* img size */
 main #fifth-section-middle img{
     width: 50%;
-
 }
 
 /* hr width */
@@ -450,33 +459,46 @@ main #fifth-section-middle hr{
     width: 100px;
 }
 
+main #fifth-section-middle p, main #fifth-section-middle span{
+    font-size: 1vw;
+}
 
 /* fifth section right side */
 main #fifth-section-right{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
+
+    min-width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
-main #fifth-section-right img{
+main #fifth-section-right .square{
     width: 50%;
-    min-width: 200px;
+    height: 50%;
 
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main #fifth-section-right img{
+    width: 100%;
+    
+    padding: 20%;
 }
 
 /* logos backgrounds */
-main #fifth-section-right #logo5{
+main #fifth-section-right .square5{
    background-color:#d5001f; 
 }
-main #fifth-section-right #logo6{
+main #fifth-section-right .square6{
     background-color:#b4d0e7; 
 }
-main #fifth-section-right #logo7{
+main #fifth-section-right .square7{
     background-color:#0d2481; 
 }
-main #fifth-section-right #logo8{
+main #fifth-section-right .square8{
     background-color:#ffd82f; 
 }   
 
