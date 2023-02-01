@@ -96,6 +96,8 @@ nav #left-nav-links a, nav #right-nav-links a{
     text-decoration: none;
     color: black;
 
+    border-bottom: 2px solid transparent;
+
     font-size: .8em;
 
     padding: 15px;
