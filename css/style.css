@@ -562,23 +562,29 @@ main #seventh-section .question{
     display: flex;
     justify-content: space-between;
 
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 main #seventh-section i{
     padding: 0 20px;
 }
 
+main #seventh-section .qea{
+
+    max-height: 50px;
+    overflow-y: hidden;
+
+    transition: all .4s;
+}
+
 /* answer hide/show */
 
 main #seventh-section .answer{
-    display: none;
-
     padding-bottom: 20px;
 }
 
-main #seventh-section .qea:hover .answer{
-    display: block;
+main #seventh-section .qea:hover{
+    max-height: 150px;
 }
 
 
